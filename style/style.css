@@ -1,0 +1,73 @@
+ #background{
+    background-color: #000000;
+}
+
+.nav ul{
+  list-style: none;
+}
+ul li{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 14px;
+    overflow: hidden;
+}
+.nav a {
+  text-decoration: none;
+  /* display: block; */
+  color: #cccccc;
+}
+
+h1 {
+    color: #cccccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20vw;
+    border:4px dotted #cccccc;
+    text-align: center;
+    margin: auto;
+    margin-top: 3vw;
+}
+#logo{
+    margin:auto;
+    height:55%;
+    width:25%;
+    display: block;
+
+}
+#heading{
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top:2vw;
+}
+#my_text{
+    color: #ffffff;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 50vw;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:1vw;
+}
+ul{
+    color:#cccccc;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vw;
+}
+#new{
+    color:#ffffff;
+    margin-top: 100vw;
+    text-align: center;
+}
+#myButton{
+    color:#ffffff;
+    width:10vw;
+    height:2vw;
+    background-color: coral;
+    font-size: 1.5em;
+    margin:auto;
+    margin-left: 45vw;
+    border-style: none;
+    margin-top:1.5vw;
+}
