@@ -28,9 +28,12 @@ h1 {
     margin-top: 3vw;
 }
 #logo{
+    /* padding:0px;
+    margin: 0px; */
     margin:auto;
-    height:55%;
+    height:50%;
     width:25%;
+    /* border-radius: 160%; */
     display: block;
 
 }
@@ -38,9 +41,9 @@ h1 {
     color: #ffffff;
     text-align: center;
     margin: auto;
-    margin-top:2vw;
+    margin-top:1.5vw;
 }
-#my_text{
+/* #my_text{
     color: #ffffff;
     line-height: 34px;
     text-align: center;
@@ -48,17 +51,19 @@ h1 {
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
     margin-top:1vw;
-}
+} */
 ul{
     color:#cccccc;
     text-align: center;
     margin: auto;
     margin-top: 2vw;
 }
-#new{
-    color:#ffffff;
-    margin-top: 100vw;
-    text-align: center;
+#bio{
+  width:40%;
+  text-align: center;
+  margin: auto;
+  margin-top:2vw;
+  line-height: 40px;
 }
 #myButton{
     color:#ffffff;
