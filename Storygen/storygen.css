@@ -1,8 +1,10 @@
 body {
+  background-color: #cccccc;
   font-family: helvetica, sans-serif;
   width: 350px;
-
-}
+  margin:auto;
+  align-items: center;
+  margin-top:40px;}
 
 label {
   font-weight: bold;
