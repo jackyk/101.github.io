@@ -1,7 +1,7 @@
 body {
   background-color: #cccccc;
   font-family: helvetica, sans-serif;
-  width: 350px;
+  width: 600px;
   margin:auto;
   align-items: center;
   margin-top:40px;}
@@ -20,8 +20,9 @@ input[type="text"] {
 }
 
 p {
-  background: #FFC125;
-  color: #5E2612;
+  background: #666666;
+  /* opacity: 0.2; */
+  color: #000000;
   padding: 10px;
   visibility: hidden;
 }
