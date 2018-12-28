@@ -8,24 +8,30 @@
         </title>
     </head>
     <body id="background">
-          <img  src="images/logo.png" id="logo"  alt="this is my head page">
+        <div class="navbar">
+        <img  src="images/logo.png" id="logo"  alt="this is my head page">
 
         <ul class="nav">
             <li> <a href="">Home</li></a>
-            <li> <a href="Events/number-guessing-game-start.html">About Me</li></a>
-            <li> <a href="Storygen/storygen.html">Story</li></a>
+            <li> <a href="Events/number-guessing-game-start.html" id="guess" onclick="navigate()">Guessing Game</li></a>
+            <li> <a href="Storygen/storygen.html" id="guess2" onclick="navigate2()">Story Generator</li></a>
         </ul>
-
         <h1 id="name">I'm Jacky Kimani</h1>
-        <h2 id="heading">Lets talk</h2>
+
+    </div>
+
+        <!-- <h2 id="heading">Lets talk</h2> -->
 
         <!-- <ul>lorem ipsum | Lorem Ipsum</ul> -->
-          <p id="bio" >I’m an autodidact web developer, a technology enthusiast and an aspiring hacker.
-            I began my journey into tech a year ago. I have a knack for UI/UX development and testing. Interest and passion for software development
-            and education. Impact oriented individual with the drive of problem solving and changing the little
+        <div id="content">
+            <img src="images/jacky4.jpg" id="main-image" alt="main image">
+          <p id="bio" >I’m an <span style=color:#24c6ef;>autodidact web developer</span>, a technology enthusiast and an aspiring hacker.
+            I began my journey into tech a year ago. I have a <span style=color:#24c6ef;>knack for UI/UX development</span> and testing. Interest and passion for software development
+            and <span style=color:#24c6ef;>education</span>. Impact oriented individual with the drive of problem solving and changing the little
             things I can in the world. Eager to be challenged in order to grow and improve my IT skills gained
             through previous experiences in the Technology and education sector.</p>
-           <script>
+        </div>
+           <!-- <script>
            function myFunction() {
                var x = document.getElementById("bio");
                x.style.fontSize = "25px";
@@ -36,7 +42,21 @@
 
            <button onclick="myFunction()" id="myButton">Click for BIO</button>
 
-           <script src="script/script.js"></script>
+           <script src="script/script.js"></script> -->
+           <script>
+           function navigate(){
+               var nav = document.getElementById("guess", "guess2");
+               nav.style.backgroundColor = "#FF0090";
+               nav.style.width = "40%";
+               nav.style.height = "10%;"
+           }
+           function navigate2(){
+               var nav = document.getElementById("guess2");
+               nav.style.backgroundColor = "#FF0090";
+               nav.style.width = "40%";
+               nav.style.height = "10%;"
+           }
+           </script>
 
         </body>
 </html>
